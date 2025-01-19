@@ -150,10 +150,9 @@
     margin-bottom: -20px;
 }
 
-.face-name{
+.fact-name{
     font-size: 1.25rem;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 
 .fact-card-container{
@@ -161,4 +160,17 @@
     grid-template-columns: repeat(4,1fr);
     gap: 30px;
     
+}
+
+.center{
+    text-align: center;
+}
+
+.sponser-container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+}
+
+.sponser-container img{
+    filter: grayscale(100%);
 }
