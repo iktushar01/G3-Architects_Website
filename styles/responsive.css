@@ -15,11 +15,14 @@
     .our-features{
         margin-left: 20px;
     }
-    .fact-card-container {
+    .fact-card-container  {
         justify-items: center;
         gap: 24px;
     }
-    
+    .sponser-container{
+        justify-items: center;
+        gap: 40px;
+    }
 }
 
 
@@ -34,6 +37,13 @@
     .our-features{
         margin: 50px auto;
     }
-
-    
+    .sponser-container{
+        grid-template-columns: repeat(2,1fr) ;
+        justify-items: center;
+        gap: 50px;
+    }
+    .fact-card-container{     
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
 }
