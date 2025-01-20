@@ -1,8 +1,8 @@
 /* responsive for small devices */
 
 @media screen and (max-width: 576px) {
-    .navbar , 
-    .nav-links , 
+    .navbar, 
+    .nav-links, 
     .teams{
         flex-direction: column;
     }
