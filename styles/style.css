@@ -135,12 +135,15 @@
 /* features section related styles */
 
 .feature-container{
+    background-color: beige;
     gap: 140px;
     align-items: center;
     
 }
 .feature-card {
+    width: 90%;
     margin: 0;
+    
     padding: 30px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -181,8 +184,9 @@
 }
 
 .feature-apa-img{
-    width: 210%;
-    height: auto;
+    
+    width: 100%;
+    
 }
 
 
