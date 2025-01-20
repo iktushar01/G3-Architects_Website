@@ -23,6 +23,19 @@
         justify-items: center;
         gap: 40px;
     }
+
+    .feature-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-apa-img{
+        width: 100%;
+    }
+
+    .experience-badge {
+       display: none;
+
+    }
 }
 
 
@@ -46,4 +59,13 @@
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
     }
+    .feature-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-apa-img{
+        width: 100%;
+    }
+
+    
 }
